@@ -1,0 +1,13 @@
+tr {
+  vertical-align: middle;
+
+  td:first-child {
+    width: auto;
+    @media screen and (min-width: 1024px) {
+      width: 25%;
+    }
+    + td {
+      width: 9%;
+    }
+  }
+}
